@@ -10,15 +10,13 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://investors.whatifai.co',
+  url: 'https://autonateai.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/WhatIfAI-Startup-Investors/',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'whatifai', // Usually your GitHub org/user name.
-  projectName: 'investors.whatifai.co', // Usually your repo name.
+  organizationName: 'AutoNateAI', // Your GitHub org/user name.
+  projectName: 'WhatIfAI-Startup-Investors', // Your repository name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 

@@ -1,4 +1,4 @@
-{
+const config = {
   navbar: {
     title: 'WhatIfAI',
     logo: {
@@ -21,4 +21,10 @@
       },
     ],
   },
-} 
+  baseUrl: '/your-repository-name/',
+  organizationName: 'your-github-username',
+  projectName: 'your-repository-name',
+  trailingSlash: false,
+};
+
+module.exports = config; 
