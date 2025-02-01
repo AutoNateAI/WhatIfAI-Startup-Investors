@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinvestors_whatifai=self.webpackChunkinvestors_whatifai||[]).push([[9788],{7644:t=>{t.exports=JSON.parse('{"metadata":{"permalink":"/WhatIfAI-Startup-Investors/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

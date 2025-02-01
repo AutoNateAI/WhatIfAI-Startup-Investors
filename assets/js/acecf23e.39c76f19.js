@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinvestors_whatifai=self.webpackChunkinvestors_whatifai||[]).push([[1903],{1912:t=>{t.exports=JSON.parse('{"blogBasePath":"/WhatIfAI-Startup-Investors/blog","blogTitle":"Blog","authorsListPath":"/WhatIfAI-Startup-Investors/blog/authors"}')}}]);
