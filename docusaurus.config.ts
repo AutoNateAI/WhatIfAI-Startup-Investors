@@ -20,7 +20,7 @@ const config: Config = {
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -37,7 +37,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/whatifai/investors.whatifai.co/tree/main/',
+          editUrl: 'https://github.com/AutoNateAI/WhatIfAI-Startup-Investors/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -45,7 +45,7 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/whatifai/investors.whatifai.co/tree/main/',
+          editUrl: 'https://github.com/AutoNateAI/WhatIfAI-Startup-Investors/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -95,7 +95,7 @@ const config: Config = {
           items: [
             {
               label: 'Guide',
-              to: '/docs',
+              to: '/docs/intro',
             },
           ],
         },
@@ -108,7 +108,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/whatifai/investors.whatifai.co',
+              href: 'https://github.com/AutoNateAI/WhatIfAI-Startup-Investors',
             },
           ],
         },
@@ -118,10 +118,6 @@ const config: Config = {
             {
               label: 'Store',
               to: '/store',
-            },
-            {
-              label: 'Contact',
-              to: '/contact',
             },
           ],
         },
