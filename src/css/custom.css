@@ -1,0 +1,56 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #0056b3;
+  --ifm-color-primary-dark: #004d9e;
+  --ifm-color-primary-darker: #004795;
+  --ifm-color-primary-darkest: #003b7a;
+  --ifm-color-primary-light: #005fc8;
+  --ifm-color-primary-lighter: #0065d1;
+  --ifm-color-primary-lightest: #0071ec;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Custom colors */
+  --ifm-color-success: #00a86b;
+  --ifm-color-info: #54b4d3;
+  --ifm-color-warning: #ffd700;
+  --ifm-color-danger: #dc3545;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #3d8bfd;
+  --ifm-color-primary-dark: #1f75fd;
+  --ifm-color-primary-darker: #106afd;
+  --ifm-color-primary-darkest: #0252dd;
+  --ifm-color-primary-light: #5ba1fd;
+  --ifm-color-primary-lighter: #6aacfd;
+  --ifm-color-primary-lightest: #97c3fe;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  
+  /* Custom colors for dark mode */
+  --ifm-color-success: #00d88a;
+  --ifm-color-info: #6bc6e1;
+  --ifm-color-warning: #ffd700;
+  --ifm-color-danger: #e4606d;
+}
+
+/* Additional custom styles */
+.hero {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+.hero__subtitle {
+  color: var(--ifm-color-gray-0);
+}
+
+.footer {
+  background-color: var(--ifm-color-primary-darkest);
+}
